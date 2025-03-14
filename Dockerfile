@@ -12,4 +12,4 @@ RUN apt-get update \
 EXPOSE 8080
 
 # Start code-server on container launch
-CMD ["code-server", "--auth", "none", "--bind-addr", "0.0.0.0:8080", "--disable-telemetry"]
+CMD ["code-server", "--auth", "none", "--bind-addr", "0.0.0.0:8080", "--disable-security"]
